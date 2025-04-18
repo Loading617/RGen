@@ -1,2 +1,2 @@
 # RGen
-Sega Genesis Emulator for Windows
+New Sega Genesis Emulator
