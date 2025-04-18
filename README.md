@@ -1,2 +1,2 @@
 # RGen
-Sega Genesis Emulator written in Rust 
+Sega Genesis Emulator for Windows
