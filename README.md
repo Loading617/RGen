@@ -1,2 +1,2 @@
 # RGen
-New Sega Genesis Emulator
+Sega Genesis Emulator
