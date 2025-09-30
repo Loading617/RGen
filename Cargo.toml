@@ -4,5 +4,11 @@ version = "0.1.0"
 edition = "2024"
 
 [dependencies]
-iced = { git = "https://github.com/iced-rs/iced", features = ["tokio", "canvas", "image"] }
-iced_aw = { version = "0.13.0", features = ["full"] }
+iced = { version = "0.14.0-dev", features = ["tokio", "canvas", "image"] }
+iced_aw = { version = "0.13.0-dev", features = ["full"] }
+
+[patch.crates-io]
+iced = { git = "https://github.com/iced-rs/iced.git", rev = "6be7072" }
+iced_core = { git = "https://github.com/iced-rs/iced.git", rev = "6be7072" }
+iced_widget = { git = "https://github.com/iced-rs/iced.git", rev = "6be7072" }
+iced_aw = { git = "https://github.com/iced-rs/iced_aw.git", rev = "4ce2b07" }
